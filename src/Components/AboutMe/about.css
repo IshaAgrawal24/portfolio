@@ -1,0 +1,9 @@
+.about-img {
+    height: 300px;
+    width: 750px;
+    background-image: url('../../Assets/pexels-photo.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}

@@ -1,0 +1,27 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.showError {
+    position: fixed;
+    display: block;
+    top: 30%;
+    right: 20px;
+    margin: -100px 0 0 0;
+    height: 50px;
+    border: 1px solid black;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #661214;
+    border: none;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: .1s;
+}
+@keyframes example {
+    0%   {right: -100px;}
+    100%  {right: 10px;}
+  }

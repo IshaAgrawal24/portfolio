@@ -1,0 +1,24 @@
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 1px 0 0 white;
+}
+
+.profile-picture-bg {
+    height: 92%;
+    width: 92%;
+    background-image: url('../../Assets/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.profile-picture-bg:hover {
+    transform: scale(1.07);
+    transition: 1s ease-in-out;
+}

@@ -1,0 +1,91 @@
+.bar {
+    background: #808080;
+    display: block;
+    width: 80%;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(94, 4, 4)0%, rgb(159, 14, 14)100%);
+}
+
+.html {
+    width: 90%;
+    animation: html 3%;
+}
+.css {
+    width: 90%;
+    animation: css 3%;
+}
+.javascript {
+    width: 80%;
+    animation: javascript 3%;
+}
+.react {
+    width: 90%;
+    animation: react 3%;
+}
+.typescript {
+    width: 90%;
+    animation: typescript 3%;
+}
+.next {
+    width: 90%;
+    animation: next 3%;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes typescript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes next {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
