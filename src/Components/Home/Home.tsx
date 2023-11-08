@@ -19,9 +19,10 @@ const Home = () => {
               onClick={() => setToggle(!toggle)}
             />
           )}
-          <ul className="hidden md:flex text-white gap-[100px]">
+          <ul className="hidden md:flex text-white gap-[100px] pe-5">
             <li>
               <Link
+                className="cursor-pointer"
                 to="home"
                 activeClass="active"
                 spy={true}
@@ -35,6 +36,7 @@ const Home = () => {
             <li>
               <Link
                 to="about"
+                className="cursor-pointer"
                 spy={true}
                 smooth={true}
                 offset={10}
@@ -46,6 +48,7 @@ const Home = () => {
             <li>
               <Link
                 to="resume"
+                className="cursor-pointer"
                 spy={true}
                 smooth={true}
                 offset={50}
@@ -57,6 +60,7 @@ const Home = () => {
             <li>
               <Link
                 to="contact"
+                className="cursor-pointer"
                 spy={true}
                 smooth={true}
                 offset={50}
@@ -74,6 +78,7 @@ const Home = () => {
             <li className="p-5">
               <Link
                 to="home"
+                className="cursor-pointer"
                 onClick={() => setToggle(!toggle)}
                 spy={true}
                 smooth={true}
@@ -86,6 +91,7 @@ const Home = () => {
             <li className="p-5">
               <Link
                 to="about"
+                className="cursor-pointer"
                 onClick={() => setToggle(!toggle)}
                 spy={true}
                 smooth={true}
@@ -98,6 +104,7 @@ const Home = () => {
             <li className="p-5">
               <Link
                 to="resume"
+                className="cursor-pointer"
                 onClick={() => setToggle(!toggle)}
                 spy={true}
                 smooth={true}
